@@ -1,0 +1,76 @@
+@charset "UTF-8";
+body
+{
+    background: grey;
+    color:white; 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f27a30', endColorstr='#1e101c',GradientType=0 ); /* IE6-9 */
+    background-color:black; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+header, footer
+{
+    background:rgb(57, 170, 102); ;
+    color:black;
+}
+header h1, h2
+{
+    text-align: center;
+    padding: 15px;
+    margin: 0;
+    display: inline;
+}
+footer
+{
+    margin: 0;
+}
+nav ul
+{
+    margin: 0;
+    display: inline;
+}
+nav ul li
+{
+    background: grey;
+    background-color:black;
+    color: white;
+    display: inline-block;
+    list-style-type: none;
+    padding: 5px 15px;
+}
+nav ul li a{
+    color:white;
+}
+img
+    {
+        width: 200px;
+        height: 200px;
+        padding: 10px;
+        margin: 15px;
+        background-color:black;
+        box-shadow: 5px 5px 5px black;
+}
+figure  
+{ 
+    position:relative; 
+    width:220px; 
+    height:200px; 
+    margin:5px; 
+    padding:5px;  
+}
+.box:hover 
+{ 
+    background-color:blue; 
+    opacity:1; 
+}
+.clear
+{ 
+    clear: both; 
+} 
+@media screen and (max-width:768px){
+
+}
+@media screen and(min-width:767px) {
+    
+}

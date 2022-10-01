@@ -1,0 +1,140 @@
+/*CSS3*/
+@charset "UTF-8";
+body
+{
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f27a30+0,1e101c+100 */
+background: rgb(57, 170, 102); /* Old browsers */
+background: -moz-linear-gradient(#1e101c 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(#1e101c 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(#1e101c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f27a30', endColorstr='#1e101c',GradientType=0 ); /* IE6-9 */
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+#wrapper
+{
+    width: 960px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightslategray;
+}
+#left-column
+{
+    float: left;
+    width: 360px;
+    height: 600px;
+    background-color: lightgray;
+
+}
+#right-column
+{
+    float: right;
+    width: 600px;
+    height: 600px;
+    background-color: lightgray;
+
+}
+.box
+{
+   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#4bc427+0,1e101c+100 */
+background: #4bc427; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  #4bc427 0%, #1e101c 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover,  #4bc427 0%,#1e101c 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center,  #4bc427 0%,#1e101c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4bc427', endColorstr='#1e101c',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+
+    height: 100px; 
+    width: 100px;
+    float: left; 
+    background-color:tan; 
+    margin: 15px; 
+    opacity:.5;
+    border-radius: 75px;
+
+}
+h1,h2,h3,h4,h5,h6,p,li 
+{ 
+    margin-left:15px; 
+}
+#footer 
+{ 
+    height: 15px;
+    
+}
+#banner h1
+{
+    color:white;
+}
+.box:hover 
+{ 
+    background-color:white; 
+    opacity:1; 
+}
+.clear
+{ 
+    clear: both; 
+} 
+
+video 
+{
+        width: 400px;
+        padding: 15px;
+        margin: 15px;
+        background-color:black;
+        border:2px white solid;
+        box-shadow: 10px 10px 5px black;
+}
+button
+{
+    background-color:black;
+    color:white;
+    height:40px;
+    border:2px white solid;
+    box-shadow: 10px 10px 5px black;
+    border-radius: 5px;
+}
+button:hover {
+    background-color:beige;
+    color:black;
+    height:40px;
+    border:2px white solid;
+    box-shadow: -10px -10px 5px black;
+    border-radius: 5px;
+}
+header, footer
+{
+    background:rgb(57, 170, 102); ;
+    color:black;
+}
+
+header h1
+{
+    padding: 15px;
+    margin: 0;
+    display: inline;
+}
+nav ul li
+{
+    background: grey;
+    background-color:black;
+    color: white;
+    display: inline-block;
+    list-style-type: none;
+    padding: 5px 15px;
+}
+nav ul li a{
+    color:white;
+}
+img
+    {
+        width: 90px;
+        height: 90px;
+        padding: 10px;
+        margin: 15px;
+        background-color:black;
+        box-shadow: 5px 5px 5px black;
+}
